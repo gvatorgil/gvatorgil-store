@@ -1,0 +1,1 @@
+let n=0;function add(b){document.getElementById('n').textContent=++n;b.textContent='ADDED ✓';setTimeout(()=>b.textContent='ADD TO BAG',800)}
