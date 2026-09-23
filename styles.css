@@ -40,3 +40,25 @@
 @media(min-width:1200px){
   .shop{padding-left:5.5%;padding-right:5.5%}
 }
+
+/* HERO IMAGE FIX — show the full principal image without cropping */
+.visual{
+  margin-left:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#080909;
+}
+.visual img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center center;
+}
+.visual:before{
+  background:linear-gradient(90deg,#080909 0%,rgba(8,9,9,.72) 8%,transparent 22%);
+}
+@media(max-width:900px){
+  .visual img{object-fit:contain;object-position:center center}
+}
