@@ -1,1 +1,1 @@
-let n=0;function add(b){document.getElementById('n').textContent=++n;b.textContent='ADDED ✓';setTimeout(()=>b.textContent='ADD TO BAG',800)}
+let count=0;function addToBag(btn){count++;document.getElementById("bagCount").textContent=count;btn.textContent="✓ ADDED";btn.classList.add("added");setTimeout(()=>{btn.innerHTML="▢ &nbsp; ADD TO BAG";btn.classList.remove("added")},900)}
