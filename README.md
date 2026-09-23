@@ -1,3 +1,11 @@
-# GVATORGIL STORE
+# GVATORGIL STORE — FINAL PRO
 
-Upload ALL files from this ZIP directly to the root of `gvatorgil-store`. There is no assets folder in this version, so image paths are simple and GitHub Pages-safe.
+Versión final pulida para GitHub Pages.
+
+- Imágenes locales en la raíz.
+- Sin etiquetas NEW duplicadas.
+- Tarjetas y botones alineados.
+- Hover premium en productos y botones.
+- Carrito funcional.
+
+Sube TODOS los archivos directamente a la raíz del repositorio `gvatorgil-store`.
